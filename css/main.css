@@ -2,17 +2,18 @@ body{
 	background-color: #333;
 	margin: 0;
 	font-family: Roboto;
+	font-size: 12pt;
 }
 
 header{
 	height: 110px;
 }
 .head{
-	width: 1200px;
+	width: 1150px;
 	height: 50px;
 	position: absolute;
 	left: 50%;
-	margin-left: -600px;
+	margin-left: -575px;
 	font-family: Roboto;
 	font-weight: bold;
 	font-size: 18pt;
@@ -33,11 +34,11 @@ header{
 .wrapped {
 	position: absolute;
 	top: 125px;
-	width: 1200px;
+	width: 1150px;
 	left: 50%;
-	margin-left: -600px;
+	margin-left: -575px;
 	margin-bottom: 20px;
-	/*height: 100%;*/
+	height: 100%;
 	min-height: 600px;
 	background-color: #eee !important;
 }
@@ -66,14 +67,14 @@ header{
 .menuul {
 	position: absolute;
 	left: 50%;
-	margin-left: -600px;
+	margin-left: -575px;
 	top: 7px;
 }
 
 .menuul ul{	
 	list-style-type: none;
 	padding-left: 0;
-	width: 1200px;
+	width: 1150px;
 	height: 20px;
     margin: 0px;
 }
@@ -112,7 +113,7 @@ header{
 }
 
 .right {
-	margin-left: 671px;
+	margin-left: 621px;
 	/*border-left-style: solid;
 	border-left-color: #5DC8CD;
 	border-left-width: 2px;*/
@@ -121,13 +122,13 @@ header{
 .leftbild{
 	position: relative;
 	top: -4px;
-	height: 60%;
+	height: 24px;
 }
 
 .rightbild {
 	position: relative;
 	top: -4px;
-	height: 60%;
+	height: 24px;
 }
 
 .highlight {
@@ -164,7 +165,7 @@ header{
 
 .timetable{
 	position: absolute;
-	top: 50px;
+	top: 90px;
 	width: 1000px;
 	background-color: white;
 	border-collapse: collapse;
@@ -238,6 +239,12 @@ header{
 	color: #01939A;
 }
 
+.detailsheading2 {
+	font-family: Roboto;
+	font-size: 12pt;
+	color: #01939A;
+}
+
 .members {
 	width: 250px;
 	height: 300px;
@@ -292,11 +299,18 @@ header{
 
 .detailsheadingpopup {
 	color: #5DCEC6;
+	font-weight: bold;
 }
 
 .close {
 	position: relative;
-	margin-top: 195px;
+	margin-top: 85px;
+}
+
+#popup a {
+	color: white;
+	font-style: italic;
+	text-decoration: none;
 }
 
 

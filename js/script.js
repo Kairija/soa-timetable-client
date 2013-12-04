@@ -9,9 +9,12 @@ function showAddCourse(){
 	//$('#popup').append('</br>');
 	$('#popup').append('<p>zum Stundenplan: '+text);
 	$('#popup').append('</p>');
-	$('#popup').append('</br>');
 	$('#popup').append('<select><option>Kurs w&auml;hlen</option>');
 	$('#popup').append('</select>');
+	$('#popup').append('</br>');
+	$('#popup').append('</br>');
+	$('#popup').append('<p>Kurs nicht dabei? Erstelle einen neuen Kurs:</p>');
+	$('#popup').append('<p><a href="createCourse.html">Kurs erstellen</a></p>');
 	$('#popup').append('</br>');
 	$('#popup').append('<button class="close" onClick="closePopup()">Schlie&szlig;en</button>');
 	//$("#popup").css('opacity', '1.0');	

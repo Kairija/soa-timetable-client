@@ -34,9 +34,28 @@ function closePopup() {
 
 function addCourse(){
 	$('#courseadding').append('<li><label>Kurszeit '+i+': </label><input type="text" name="course'+i+'" value="HH:MM"><input type="text" name="course'+i+'1" value="HH:MM"></li>');
-	var currentheight = h+26;
-	console.log(currentheight);
-	$('.wrapped').css("min-height", currentheight+"px");
+	//var currentheight = h+26;
+	//console.log(currentheight);
+	//$('.wrapped').css("min-height", currentheight+"px");
 	i = i+1;
-	h = h +26;
+	//h = h +26;
+}
+
+function showhideAddComment(){
+	if($('#writecomment').css('visibility') == 'hidden'){
+		$('#writecomment').css('visibility', 'visible');
+	}else{
+		$('#writecomment').css('visibility', 'hidden');
+	}
+}
+
+function addComment(){
+	var text = document.forms["commentform"].elements["writtencomment"].value;
+	console.log(text);
+	var jetzt = new Date();
+	$('#comments').append('<div class="comment"><p><span class="bluegreen">');
+	$('#comments').append('Tester Test, '+jetzt);
+	$('#comments').append('</span></p><p>');
+	$('#comments').append(text);
+	$('#comments').append('</p></div>');
 }

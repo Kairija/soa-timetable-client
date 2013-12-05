@@ -23,10 +23,9 @@
 			</div>
 		</div>
 	</header>
-	<section >
 		<div class="wrapped">			
 			<div class="wrapper">
-				<section class="detailsabove">
+				<div class="detailsabove">
 					<div class="details-right">
 						<span class="detailsheading">E-Learning Seminar</span>
 						</br>
@@ -40,23 +39,36 @@
 
 						</div>
 					</div>				
-				</section>
+				</div><div class="clear"></div>
 				<hr>
-				<section class="detailsbelow">
+				<div class="detailsbelow">
 					<span class="detailsheading">Kommentare</span>
-					<div class="comment">
-						<p><span class="bluegreen">Emil Tester, 12.11.2013 16:24</span></p>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-					</div>
+					<div class="comwrap">
+						<div id="comments">
+							<div class="comment">
+								<p><span class="bluegreen">Emil Tester, 12.11.2013 16:24</span></p>
+								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+							</div>
 
-					<div class="comment">
-						<p><span class="bluegreen">Emil Tester, 12.11.2013 17:12</span></p>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-					</div>
-				</section>
+							<div class="comment">
+								<p><span class="bluegreen">Emil Tester, 12.11.2013 17:12</span></p>
+								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+							</div>
+						</div>
+						<p class="addcomment"><a href="#com" onClick="showhideAddComment();">Kommentar schreiben</a></p>
+						<div id="writecomment">
+							<form name="commentform">
+								<a name="details.html#com"><textarea name="writtencomment" cols="50" rows="4"></textarea></a>
+								</br>
+								<input type="submit" value="Ver&ouml;ffentlichen">
+							</form>
+						</div>
+					</div><div class="clear"></div>
+				
+				</div>
 			</div>
+			<div class="clear"></div>
 		</div>
-	</section>
 	<div id="popup"></div>
 
 </body></html>
